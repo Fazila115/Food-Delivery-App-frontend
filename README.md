@@ -1,12 +1,40 @@
-# React + Vite
+# Food Order Frontend App (MERN)
+A **basic MERN frontend application** for browsing and ordering food items. This project demonstrates a simple React-based frontend with static data, filtering, search, and cart functionality.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Features
+- Displays food items in **cards**
+- **Filter by category** (e.g., Pizza, Burger)
+- **Search bar** to find items by name
+- **Add to cart** functionality
+- **Increase / decrease quantity** or **remove items** from cart
+- Place an order (simulated)
+- Uses a **static data file (`food.js`)** as the data source
 
-Currently, two official plugins are available:
+# Installation
+1. Clone the repository:
+git clone <your-repo-url>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Install dependencies:
+npm install
 
-## Expanding the ESLint configuration
+3. Start the development server:
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Usage
+- Browse the food items displayed as cards.
+- Use the search bar to find items by name.
+- Use filters to view items by category.
+- Add items to cart, increase or decrease quantity, or remove items.
+- Click Place Order to simulate ordering.
+
+# Technologies Used
+- React.js – Frontend library for building UI
+- Redux / React Context – For cart state management
+- Tailwind CSS – Styling the UI
+- JavaScript – Logic and interactivity
+
+# Author
+Fazila Sohail
+
+# License
+This project is open-source and available under the MIT License.
